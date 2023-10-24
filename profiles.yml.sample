@@ -1,0 +1,15 @@
+docs_test:
+  outputs:
+    dev:
+      dremio_space: '@user'
+      dremio_space_folder: no_schema
+      object_storage_path: no_schema
+      object_storage_source: $scratch
+      pat: YOUR_DREMIO_PAT
+      port: 443
+      software_host: your.dremio.host
+      threads: 1
+      type: dremio
+      use_ssl: true
+      user: your_username
+  target: dev
