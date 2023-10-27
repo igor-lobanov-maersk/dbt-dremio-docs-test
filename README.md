@@ -1,15 +1,7 @@
-Welcome to your new dbt project!
+# Dremio dbt Primer
 
-### Using the starter project
+This is a minimal project using dbt and Dremio via [dbt-dremio-adapter]() illustrating some nuance of it.
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Specifically:
+- How to configure [sqlfluff]() linter to work with Dremio because Dremio dialect is not yet supported
+- How to use dbt to create reflections for models materialised as views in Dremio
